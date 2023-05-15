@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Full stack Design</title>
+  <link rel="stylesheet" href="./HTML/CSS/pro1.css">
+  <script src="./HTML/slide.js"></script>
+    
+</head>
+<body>
+    <div class="ful"><img src="./HTML/image/pro2.png"></div><br/>
+    
+    <div class="modify"><br/>
+    <h1>About TechIdol Class:</h1>
+    <br/>
+    <p>Techidol Class is one of the industry’s leading project-based career programs offered by GUVI &
+         promises 100% Job Placement Support upon completion of the course. GUVI is reputedly incubated
+          by IIT-M & IIM-A & the founders(ex-PayPal employees) have launched techidol Class to provide world-class 
+          mentoring & career guidance
+         through experts from big companies like Google, Microsoft, Flipkart, 
+        etc to ensure job placements in top companies with huge salaries. This Full-stack development 
+        Program in Techidol Class is designed to cover relevant technologies in the language 
+        of your choice (English, தமிழ், ಕನ್ನಡ and हिंदी) to help you become a successful Full-stack Developer.</p>
+    </div>
+    <br/><br/>
+    <div class="syl">
+        <h1>Syllabus:</h1>
+        <br/>
+      <p class="p1">Get a peek through on the entire curriculum designed that ensures 100% Job Placement Support</p><br/>
+      <button class="bty">Download syllabus</button></div>
+      <br/><br/>
+  
+        <h1 class="cardde">The Program Information:</h1><br/>
+        <div class="card1">
+    <div class="card">
+      <div class="head">
+        <div>Front-End Development</div>
+          <p class="p2">Get a deeper understanding of Client Side Programming or in other words the front end 
+            development by developing highly responsive web pages across languages.<i class="fa-solid fa-chevron-down"  onclick="fun1(0,this)"></i></div>
+            <div class="body">
+              Understand how websites work and how HTML, CSS and JavaScript contribute.<br/>
+              <br/>
+Understand how the internet works.<br/><br/>  
+
+Learn HTML tags & features of HTML5.<br/>
+
+Learn the fundamentals of implementing responsive web design.<br/>
+
+How to use bootstrap to create a web page.<br/>
+
+Adding symbols using Font Awesome.<br/>
+
+Strengthen your basics in React JS.
+            </div>
+            <script>
+               let i=undefined
+               let ar=document.getElementsByClassName("body")
+               function fun1(id,e)
+               {
+                if(i==undefined){
+                  ar[id].style.display="block";
+                  e.className="fa-solid fa-chevron-down"
+                  i=id
+                }
+                else{
+                  if(i==id){
+                    if(ar[i].style.display=="none")
+                    {
+                      ar[i].style.display="block";
+                      document.getElementsByTagName("i")[i].className="fa-solid fa-chevron-up"
+                    }
+                    else{
+                      ar[i].style.display="none";
+                      document.getElementsByTagName("i")[i].className="fa-solid fa-chevron-down"
+                    }
+                    
+                  }
+                  else{
+                    ar[i].style.display="none";
+                      document.getElementsByTagName("i")[i].className="fa-solid fa-chevron-down"
+                      ar[id].style.display="block";
+                  e.className="fa-solid fa-chevron-up"
+                  i=id
+                  }
+
+
+                }
+               }
+
+
+            </script>
+      </div><br/>
+      <div class="card">
+        <div>Back-End Development</div>
+          <p class="p2">Learn the industry leading ways to design back end development with least response time, which in turn helps in the fast loading of web applications. You’ll learn to connect databases with servers.<i onclick="fun1(1,this)" class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="body">
+        Understand how websites work and how HTML, CSS and JavaScript contribute.<br/>
+
+     
+      </div>
+      <br/>
+      <br/>
+      <div class="card">
+        <div>DataStructures And Scalability</div>
+          <p class="p2">Learn Data Structures & Algorithms to write an efficient, robust, & optimized code. Learn how to build robust & scalable web servers with a thorough understanding of AWS.<i onclick="fun1(2,this)" class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="body">
+        Understand how websites work and how HTML, CSS and JavaScript contribute.<br/>
+      
+    </div>  
+    <br/>
+    <br/>
+      <div class="card">
+        <div>Build your Portfolio</div>
+          <p class="p2">Build your Full stack developer Portfolio and demonstrate your knowledge by developing an end-to-end Full-stack Application.<i onclick="fun1(4,this)" class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="body">
+        Understand how websites work and how HTML, CSS and JavaScript contribute.<br/>
+      
+    </div>
+    <br/>
+    <br/>
+   </div>
+
+      <div class="cov"><img src="./HTML/image/pro4.jpg"></div><br/>
+      <div class="mains">
+      <div class="scard">
+           
+        <h1>Technologies Covered:</h1>
+        <div  class="sliderContainer">
+            <div><img class="slide a11" src="./HTML/image/scard1.jpg"></div>
+            <div><img class="a11" src="./HTML/image/scard5.jpg"></div>
+            <div><img  class="a11"  src="./HTML/image/scard3.jpg"></div>
+            <div><img  class="a11"  src="./HTML/image/scard4.jpg"></div>
+         
+            
+          </div>
+        </div>
+        <div class="dot">
+        <i class="fa-sharp fa-solid fa-circle" onclick="fun1(0)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(1)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(2)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(3)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(4)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(5)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(6)"></i>
+        <i class="fa-sharp fa-regular fa-circle"  onclick="fun1(7)"></i>
+      </div>
+      </div>
+        
+       
+       
+        
+
+   
+     <div class="key">
+     <h1>Key Highlights:</h1>
+     <div class="flex">
+        <div>
+        <h4><i class="fa-solid fa-user-graduate"></i>&nbsp;&nbsp;Designed for Students & Working Professionals</h4>
+        <h4><i class="fa-solid fa-laptop-file"></i>&nbsp;&nbsp;Build Portfolio with 20+ Projects</h4>
+        <h4><i class="fa-solid fa-atom"></i>&nbsp;&nbsp; Practical Hands-on Workshops</h4>
+        <h4><img class="key" data-src="/images/zen_new/studentsDesigned.svg" alt="icon" src="/images/zen_new/studentsDesigned.svg"> One-on-One with Industry Mentors</h4>
+        <h4> Personalized Feedback on Assignments</h4>
+    </div>
+    <div>
+        <h4>EMI Option Available</h4>
+        <h4>3 Hackathons</h4>
+        <h4>Ask-me-Anything Sessions</h4>
+        <h4> Available in English, தமிழ், ಕನ್ನಡ and हिंदी</h4>
+        <h4>Value-added sessions on Soft skills.</h4>
+
+
+    </div>
+       
+     </div>
+    </div>
+    <div class="proj">
+        <h1>Project:</h1>
+        <div class="app">
+            <div>
+               <img src="https://cdn.pixabay.com/photo/2016/11/07/11/19/email-us-1805514__340.png" alt="">
+        </div>
+        <div>
+            <h2>Custom Gmail client using Gmail API</h2>
+            <p>Bored of your Gmail client , 
+              then build your own frontend for GMail by accessing it through GmailAPI.
+                 This will teach you how to design & integrate the API and do OAuth</p>
+        </div>
+    </div>
+    <div class="app2">
+        
+    <div>
+        <h2 class="ins">Instagram in React</h2>
+        <p>Clone of your Insta account with react components. 
+            create Business Profile, Celebrity Profile, General Profile, 
+            Add & Follow Friends & Celebrities, Browse posts of different categories, 
+            Upload Post, Upload Stories, Go live, Keep up with social trends.</p>
+    </div>
+    <div class="image">
+        <img src="./HTML/image/download.jpg" alt="">
+ </div>
+</div>
+<div class="app">
+  <div class="you">
+     <img  src="./HTML/image/youTube2.png" alt="">
+</div>
+<div class="yout">
+  <h2>Youtube radio</h2>
+  <p>Everyone wants a personalized presentation. Customized player for your 
+    preferences and you can store the data in a MongoDB via a backend like NodeJS.</p>
+</div>
+</div>
+<div class="app2">
+
+<div>
+<h2 class="ins">Music streaming app like Spotify</h2>
+<p>Publish a web app like Spotify using modern Framework React and learn how to create components and build a large scale project and host it live.</p>
+</div>
+<div class="image">
+<img src="./HTML/image/spotify.jpg" alt="">
+</div>
+</div>
+    </div>
+
+
+    
+
+     
+
+    
+</body>
+</html>
