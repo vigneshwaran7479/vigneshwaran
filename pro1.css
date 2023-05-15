@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px
+    
+}
+.ful img{
+    width: 100%;
+}
+.cov{
+    background: url(./HTML/image/images5.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+.cov img{
+    width: 50%;
+    height: 70vh;
+    margin-top: 100px;
+    margin-left: 300px;
+    position: relative;
+    border: 10px solid rgb(205, 255, 226);
+    border-radius: 10px;
+}
+.cov img:hover{
+    box-shadow: 0px 0px 20px rgb(9, 235, 179),0px 0px 30px rgb(175, 255, 47);
+
+}
+ h1{
+    color: darkorange;
+text-shadow: 0px 0px 5px greenyellow;
+font-size: 23px;
+    
+
+}
+.modify{
+    margin-left: 50px;
+   font-family: 'Times New Roman';
+}
+.modify p{
+width: 80%;
+text-align: justify;
+font-size: 20px;
+}
+.syl{
+width: 95%;
+height: 20vh;
+background-color: rgb(0, 255, 0);
+padding-left: 50px;
+position: relative;
+}
+.syl .bty{
+position: absolute;
+margin-left: 900px;
+margin-top: -45px;
+border-top: 0px;
+border-bottom: 0px;
+border-top: 0px;
+border-right: 0px;
+background-color: rgb(47, 255, 168);
+overflow: hidden;
+width: 200px;
+border: 2px solid white;
+border-radius: 10px;
+text-align: center;
+align-items: center;
+font-size: 20px;
+transition: all 0.4s ease-in-out;
+}
+.bty:hover{
+background-color: rgb(249, 250, 239);
+}
+.syl h1{
+padding-top: 10px;
+
+width: 10%;
+text-align: center;
+}
+.syl .p1{
+font-size: 20px;
+}
+.cardde{
+padding-left: 50px;
+
+
+}
+
+    
+.card{
+width:80%;
+height: 20vh;
+margin: auto;
+background-color: rgb(243, 247, 246);
+position: relative;
+padding-left: 50px;
+}
+
+.card div{
+font-size: 20px;
+padding-left: 10px;
+padding-top: 10px;
+font-weight: bold;
+}
+.card .p2{
+padding-left: 20px;
+padding-top: 20px;
+font-size: 17px;
+width: 80%;
+
+}
+.p2 i{
+position: absolute;
+right: 35PX;
+bottom: 50px;
+}
+.scard h1{
+color: darkorange;
+text-shadow: 0px 0px 5px greenyellow;
+}
+
+.mains{
+width: 100%;
+height: 40vh;
+background-color: rgb(26, 255, 0);
+
+}
+.scard>div{
+    display: flex;
+
+}
+.scard>div>div{
+width: 20%;
+margin: auto;
+
+
+}
+.scard img{
+margin-top: 20px;
+height: 120px;
+width: 100%;
+display: inline-block;
+border-radius: 5px;
+
+}
+.mains .dot{
+    padding-top: 40px;
+   padding-left: 40%;
+   
+}
+
+.key h1{
+padding-top: 30px;
+padding-left: 50px;
+color: darkorange;
+text-shadow: 0px 0px 5px greenyellow;
+}
+.flex{
+display: flex;
+justify-content: space-around ;
+
+width: 80%;
+height: 50vh;
+padding-top: 40px;
+
+}
+.flex h4{
+height: 8vh;}
+.proj{
+    padding-left: 50px;
+    height: 200vh;
+}
+.app{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    background-color: aliceblue;
+    width: 90%;
+    height: 40vh;
+    position: relative;
+}
+.app img{
+    width: 100%;
+    height: 40vh;
+    padding-right: 40px;
+}
+.app h2{
+    padding-top: 40px;
+    color: coral;
+   padding-right: 100px;
+   
+
+}
+.app p{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+.app2{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    background-color: aliceblue;
+    width: 90%;
+    height: 40vh;
+    position: relative;
+    
+}
+.app2 h2{
+    padding-top: 30px;
+    padding-left: 20px;
+    color: coral;
+}
+.app2 p{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 60%;
+    font-size: 15px;
+    text-align: justify;
+}
+.app2 img{
+   width: 100%;
+   height: 30vh;
+   border-radius: 30px;
+}
+.image{
+    padding-top: 30px;
+    position: absolute;
+    padding-left: 75%;
+   
+}
+.you{
+    padding-left: 20px;
+    width: 40%;
+  
+}
+.you img{
+    width: 100%;
+    height: 30vh;
+    padding-top: 30px;
+  
+}
+.yout{
+    padding-left: 80px;
+}
+
+.body{
+  box-sizing: border-box;
+    display: none;
+   
+
+}
