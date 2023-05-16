@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 40px;
+    z-index: 10px;
+    position: relative;
+}
+.logo h2{
+    margin-top:40px;
+}
+
+.image{ 
+    position: absolute;
+    width: 125px;
+    height: 100px;
+    background: transparent;
+    margin-top: -40px;
+    right: 0px;
+    opacity: 0.30;
+    box-shadow: 0px 0px 20px 10px rgb(184, 183, 183),0px 0px 30px rgb(9, 31, 228);
+    border-radius: 20px;
+    
+   }
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.smenu{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smenu li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.smenu li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+.smenu li a:hover{
+    background-color:#ff7200;
+}
+.search{
+    position: absolute;
+    width: 330px;
+    float: left;
+    margin-left: 800px;
+    margin-top: 18px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    font-size: 15px;
+    margin-top: 0px;
+    color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+width: 100px;
+height: 40px;
+background: #ff7200;
+border: 2px solid 7200;
+color: #fff;
+font-size: 15px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.btn:hover{
+    color: black;
+}
+.content{
+    position: relative;
+    width: 100%;
+    margin-top: 180px;
+    color: aliceblue;
+}
+
+.content span{
+   color: #ff7200;
+   font-size: 40px;
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+    
+
+.content .co1{
+    text-align: justify;
+    font-size: 20px;
+}
+.content .j1{
+    width: 160px;
+    height: 40px;
+background-color: #ff7200;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .j1 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+    
+}
+.j1:hover{
+    background-color: #fff;
+}
+.form{
+    width: 250px;
+    height: 320px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+ ::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btrn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btrn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btrn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .line a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    transition: 0.4s;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+
+
+    </style>
+    <title>WEB DESIGN</title>
+    <link rel="stylesheet" href="./CSS/V1.CSS">
+</head>
+<body>
+    <div class="main">
+        <div class="navi">
+            <div class="icon">
+                <h2 class="logo ">ȶɛƈɦɨɖօʟ<img class="image" src="./siva2.webp"></h2>
+            </div>
+            <div class="menu">
+                <ul class="smenu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">FOLLOW</a></li>
+                    
+                </ul>
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type to text">
+                    <a href="#"><button class="btn">Search</button></a>
+                </div>
+                <div class="content">
+                    <h1>Web Design &<br/><span>Development<br/></span>Course</h1><br/>
+                    <P class="co1">I am proud to say that after a few months of taking this course...
+                        I passed my exam and am now an AWS Certified Cloud Practitioner! 
+                       <br/> This content was exactly what the CCP exam covered.</P><br/>
+                       
+                       <button class="j1"><a href="#">JOIN US</a></button>
+                       <br/><br/>
+                       <div class="dis"><ul type="disc">
+                        <li>100% Job Placement Support</li><br/>
+                           <li> Mentors from top Global Product companies</li><br/>
+                           <li> A portfolio of real-world projects</li><br/>
+                            <li> Certification</li><br/>
+                            Available in English, தமிழ், ಕನ್ನಡ and हिंदी
+                       </ul></div>
+
+                       <div class="form">
+                        <h2>Login Here</h2>
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <input type="password" name="password" placeholder="Enter password Here">
+                        <button class="btrn"><a href="#">Login</a></button>
+
+                        <p class="line">Don't have an account?<br>
+                        <a href="#">Signup </a>Here</a></p>
+                        <p class="liw">Login With</p>
+
+                        <div class="icon">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>  
+                             <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>  
+                             <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                             <a href="#"><ion-icon name="logo-skype"></ion-icon></a>    
+                         </div>
+                       </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src=""></script>
+</body>
+</html>
