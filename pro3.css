@@ -1,0 +1,164 @@
+.headcard{
+    margin-top: -60px;
+     background-color: aliceblue;
+     width: 100%;
+     height: 100vh;
+     position: relative;
+ }
+ .headcard h2{
+     width: 21%;
+     padding-top: 5%;
+     margin-left: 20px;
+ 
+ }
+ .mainheadcard1{
+    display: flex;
+  
+ }
+ .mainheadcard{
+ /* display: flex;
+ flex-wrap: wrap; */
+ display: grid;
+ grid-template-columns: auto auto;
+ grid-template-rows: auto auto;
+ width: 60%;
+ position: relative;
+}
+
+ .headcard1{
+    margin-top: 20px;
+     margin-left: 40px;
+     background-color: #fff;
+     width: 350px;
+     height: 35vh;
+     border-radius: 2%;
+ 
+ }
+ .headcard1>div{
+     font-size: 15px;    
+     padding-left: 30px;
+     padding-top: 15px;
+ 
+ }
+ .takeco a{
+     text-decoration: none;
+     color: rgb(21, 117, 12);
+ }
+ .takeco{
+    font-size: 18px;
+    font-family:  serif,Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+ }
+ .takeco i{
+     padding-left: 20px;
+     font-size: 10px;  
+ }
+ .self{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .takecode{
+     margin-top: 18px;
+     font-size: 18px;
+    font-family:  serif, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+     
+ }
+ .takecode a{
+    text-decoration: none;
+    color: rgb(21, 117, 12);
+  
+ }
+ .takecode i{
+     padding-left: 20px;
+     font-size: 10px;
+     font-weight: bold;
+ }
+ .cardimage img{
+     width: 100%;
+     height: 50vh;
+ }
+ .cardimage{
+    margin-top: 80px;
+    margin-left: 80px;
+ }
+ 
+ 
+ /* center navi */
+ .navihead{
+   display: flex;
+   justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    
+ }
+ /* corpor */
+ .corpormain{
+    background-color: aliceblue;
+    width: 100%;
+    height: 70vh;
+
+ }
+ .cor img{
+    background-color: rgb(18, 156, 18);
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 13%;
+    position: relative;
+    z-index: 2;
+   
+ }
+ .cor{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+
+ }
+ .textcor{
+    padding-top: 40px;
+    text-align: center;
+    
+ }
+ 
+.dashedLineTOpLeft{
+   width: 70px;
+   height: 70px;
+   z-index: 1;
+   position: absolute;
+   top: 25px;
+   left: 25px;
+   border-top: 1px  dashed black;
+   border-left: 1px  dashed black;
+}
+.textcorpor{
+   margin-top: 10px;
+   margin-left: 40px;
+   width: 70%;
+   font-size: 12px;
+}
+.cormainflex{
+   padding-top: 50px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   width: 90%;
+}
+.corbutton {
+   margin-left: 45%;
+   padding-top: 60px;
+}
+.corbutton button{
+   border-bottom: none;
+   border-right: none;
+   border-left: none;
+   border-top: none;
+   background-color: rgb(37, 224, 31);
+   width: 20%;
+   height: 6vh;
+   border-radius: 5%;
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.corbutton a{
+   color: #fff;
+}
